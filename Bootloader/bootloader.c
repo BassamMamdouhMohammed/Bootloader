@@ -12,6 +12,10 @@
 
 static uint8_t BL_HostBuffer[BL_HOST_BUFFER_RX_LENGTH];
 
+/**
+*
+*
+*/
 static void Bootloader_GetVersion(uint8_t *HostBuffer);
 static void Bootloader_GetHelp(uint8_t *HostBuffer);
 static void Bootloader_GetSectorProtectionStatus(uint8_t *HostBuffer);
